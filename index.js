@@ -19,7 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
+var votingAge = 20;
+if (votingAge > 18){
+  conssole.log(votingAge)
+}
 
 
 /*
@@ -60,9 +63,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(a, b){
+  return a * b;
 }
+console.log(multiply(4,4))
 
 
 
